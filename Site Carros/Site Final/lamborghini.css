@@ -1,0 +1,422 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 5px;
+    
+}
+
+.menu li a {
+    font-size: 20px;
+    margin-right: 40px;
+    transition: width 2s, height 2s
+}
+
+.menu li a:hover{
+    font-size: 25px;
+}
+
+.logo-imagem{
+    padding: 0 30px;
+}
+
+.body{
+    background-image: url(imagens/fundo\ pagina\ inicial.png);
+    background-size: cover;
+    position: relative;
+}
+
+img{
+    position: relative;
+}
+
+li{
+    font-family: 'Russo One';
+    font-style: normal;
+}
+
+.titulo{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 28%;
+    justify-content: center;}
+
+#paragrafo1{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 9%;
+    margin-right: 9%;
+    text-align: center;}
+
+#paragrafo2{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 9%;
+    margin-right: 9%;
+    text-align: center;}
+
+#paragrafo3{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 9%;
+    margin-right: 9%;
+    text-align: center;}
+
+#paragrafo4{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 9%;
+    margin-right: 9%;
+    text-align: center;
+}
+
+#botão{
+    background-color: white;
+    color: black;
+    margin-top: 57%;
+    margin-left: 45%;
+    border-radius: 15%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: width 5s, height 5s
+}
+
+
+#botão:hover {
+    /* Estilo do botão quando o cursor passa por cima */
+    background-color: rgb(13, 205, 13);
+    color: white;
+}
+
+.rodape {
+        background-color: black;
+        padding: 20px;
+        text-align: center;
+        margin-top: 5cm;
+}
+
+.rodape p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;    
+}
+
+#container-a-suv{
+    background-color: #272424;
+
+    margin-top: 10%;
+    width: 290px;
+    height: 290px;
+    display: inline-block;
+    margin-left: 34%;
+
+}
+
+
+
+#container-b-suv{
+    background-color: #272424;
+    margin-top: 10%;
+    width: 290px;
+    height: 290px;
+    display: inline-block;
+    margin-left: 2%; 
+}
+
+#fundo-cars{
+    background-color: #0d0909;
+}
+
+#container-a-sportcar{
+    background-color: #272424;
+    margin-top: 10%;
+    width: 290px;
+    height: 290px;
+    display: inline-block;
+    margin-left: 35%;
+}
+
+#container-b-sportcar{
+    background-color: #272424;
+    margin-top: 10%;
+    width: 290px;
+    height: 290px;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+
+.emages{
+    margin-top: 30%;
+}
+
+#lambo{
+    margin-left: 10%;
+}
+
+#lambo:hover{
+    width: 295px;
+}
+
+#mc:hover{
+    width: 350px;
+}
+
+#BMWX5{
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+#BMWX5:hover{
+    width: 310px;
+}
+
+#XC40{
+    margin-top: 10%;
+    margin-left: -5%;
+}
+
+#XC40:hover{
+    width: 390px;
+}
+#fundo-suv{
+    background-image: url(imagens/fundo\ suv\ .png);
+}
+
+#fundo-sportcar{
+    background-image: url(imagens/fundo\ sportcar.png);
+}
+
+#fundo-quem-somos{
+    background-image: url(imagens/fundo\ quem\ somos\ .png);
+    background-size: cover;
+    position: relative;
+}
+
+#quem-somos-titulo{
+        font-family: 'Russo One', sans-serif;
+        color: white;
+        font-size: 50px;
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 35%;
+        justify-content: center;
+}
+
+#rodape-quem-somos{
+    position: static;
+    margin-top: 40%;
+    width: 100%;
+}
+
+#fundo-lambo{
+    background-image: url(imagens/lambo.png);
+
+}
+
+:root {
+    --bg-color:var(--bg-color) #101113;
+    --text-color: #fff;
+    --main-color: #34e7f8;
+    --other-color: #fcfcfc;
+    --h1-font: 4rem;
+    --p-font: 1rem;
+
+}
+
+body {
+   background-color: #101113; 
+   color: var(--text-color);
+   background-image: url(imagens/aaa.jpg);
+   background-size: cover;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    font-family: 'Russo One';
+    font-style: normal;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 5px;
+
+}
+
+.menu li a {
+    font-size: 20px;
+
+    margin-right: 40px;
+}
+
+.logo-imagem{
+    padding: 0 50px;
+    
+}
+
+.body{
+    background-image: url(imagens/fundo\ pagina\ inicial.png);
+    background-size: cover;
+    position:relative
+    
+}
+
+img{
+    position: relative;
+}
+
+
+
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-text h1{
+font-size: 50px;
+line-height: 1.3;
+margin-bottom: 2px;
+margin-left: 50px;
+text-align: center;
+}
+
+.home-text h3{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.home-img img{
+    position: absolute;
+    max-width: 50%;
+    width: 60rem;
+    
+    align-items: center;
+    top: 8cm;
+    left: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fundo {
+    position: static;
+    width: 100%;
+    height: auto;
+    top: 1%;
+}
+.listas {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    position: relative;
+    margin-left: 55%;
+    margin-top: -4cm ;
+    
+}
+
+table,th,tr  {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    position: relative;
+    margin-left: 33%;
+    margin-top: -4cm;
+
+    text-align: center;
+    line-height: 1.1;
+    opacity: 0.8;
+    background-color: rgb(0,0, 0, 0.9);
+    padding: 5px;
+    border-radius: 20px;
+    width: 40%;
+  }
+  table {
+    border: 1px solid;
+  }
+
+.rodape-lambo{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+#rodape-lambo-p{
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+}
+
